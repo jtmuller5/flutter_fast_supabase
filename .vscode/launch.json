@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "flutter_fast_supabase",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define-from-file=assets/config.json"]
+    },
+    {
+      "name": "flutter_fast_supabase (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--dart-define-from-file=assets/config.json"]
+    },
+    {
+      "name": "flutter_fast_supabase (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--dart-define-from-file=assets/config.json"]
+    }
+  ]
+}
